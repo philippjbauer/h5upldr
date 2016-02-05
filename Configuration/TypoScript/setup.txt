@@ -1,0 +1,16 @@
+plugin.tx_h5upldr {
+	view {
+		templateRootPath = {$plugin.tx_h5upldr.view.templateRootPath}
+		partialRootPath = {$plugin.tx_h5upldr.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_h5upldr.view.layoutRootPath}
+	}
+}
+
+page {
+	includeCSS {
+		ajaxuploadwidget = EXT:h5upldr/Resources/Public/Styles/AjaxUploadWidget.css
+	}
+	includeJSFooterlibs {
+		ajaxuploadwidget = EXT:h5upldr/Resources/Public/Scripts/AjaxUploadWidget.js
+	}
+}

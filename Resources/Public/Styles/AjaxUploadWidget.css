@@ -1,0 +1,17 @@
+.ajaxupload-original {
+	display: none;
+}
+.ajaxupload-text-input {
+	cursor: pointer;
+}
+.ajaxupload .progress {
+	background: none;
+	height: 5px;
+	margin-top: -5px;
+	margin-bottom: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}

@@ -1,0 +1,10 @@
+plugin.tx_h5upldr {
+	view {
+		# cat=plugin.tx_h5upldr/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:h5upldr/Resources/Private/Templates/
+		# cat=plugin.tx_h5upldr/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:h5upldr/Resources/Private/Partials/
+		# cat=plugin.tx_h5upldr/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:h5upldr/Resources/Private/Layouts/
+	}
+}

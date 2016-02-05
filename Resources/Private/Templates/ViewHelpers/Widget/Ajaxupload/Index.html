@@ -1,0 +1,18 @@
+<div class="ajaxupload" data-maxfilesize="{maxFileSize}" data-filetypes="{uploadTypes}" data-action="{f:widget.uri(action:'put',ajax:1)}">
+	<div class="row ajaxupload-virtual">
+		<div class="col-xs-12 col-sm-8">
+			<input type="text" class="form-control ajaxupload-text-input ajaxupload-open-filemodal" placeholder="{placeholder}" readonly>
+			<div class="progress">
+				<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+					<span class="sr-only">0%</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<button class="form-control btn btn-primary ajaxupload-open-filemodal">{buttonLabel}</button>
+		</div>
+	</div>
+	<div class="ajaxupload-original">
+		<f:renderChildren />
+	</div>
+</div>
