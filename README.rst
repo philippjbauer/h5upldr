@@ -20,7 +20,7 @@ Async File Upload using Extbase and FAL in TYPO3 7.6
       `Philipp Bauer <philipp.j.bauer@gmail.com>`__
 
 :Repository:
-      At Github `helhum/upload_example <https://github.com/helhum/upload_example>`__
+      At Github `philippjbauer/h5upldr <https://github.com/philippjbauer/h5upldr>`__
 
 :Credit:
       - `Helmut Hummel <helmut.hummel@typo3.org>`__ - for original code base
